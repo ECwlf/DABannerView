@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63757899ED4DF54ED24A1331 /* libPods-DABannerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 338ED028E0C2B4B2E0D07018 /* libPods-DABannerView.a */; };
 		6E234CDD22E5ACD7000576BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E234CDC22E5ACD7000576BF /* AppDelegate.m */; };
 		6E234CE022E5ACD7000576BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E234CDF22E5ACD7000576BF /* ViewController.m */; };
 		6E234CE322E5ACD7000576BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E234CE122E5ACD7000576BF /* Main.storyboard */; };
 		6E234CE522E5ACDB000576BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E234CE422E5ACDB000576BF /* Assets.xcassets */; };
 		6E234CE822E5ACDB000576BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E234CE622E5ACDB000576BF /* LaunchScreen.storyboard */; };
 		6E234CEB22E5ACDB000576BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E234CEA22E5ACDB000576BF /* main.m */; };
+		6E234CFA22E5AE93000576BF /* DABannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E234CF822E5AE93000576BF /* DABannerCollectionViewCell.m */; };
+		6E234CFB22E5AE93000576BF /* DABannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E234CF922E5AE93000576BF /* DABannerCollectionViewCell.xib */; };
+		6E234CFE22E5AFCF000576BF /* DABannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E234CFD22E5AFCF000576BF /* DABannerView.m */; };
+		6E234D0122E5B1A7000576BF /* DABannerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E234D0022E5B1A7000576BF /* DABannerFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A1E9F8EFFA324EE3F58057A /* Pods-DABannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DABannerView.release.xcconfig"; path = "Target Support Files/Pods-DABannerView/Pods-DABannerView.release.xcconfig"; sourceTree = "<group>"; };
+		338ED028E0C2B4B2E0D07018 /* libPods-DABannerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DABannerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B38DC435E4794BCAF94D5A /* Pods-DABannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DABannerView.debug.xcconfig"; path = "Target Support Files/Pods-DABannerView/Pods-DABannerView.debug.xcconfig"; sourceTree = "<group>"; };
 		6E234CD822E5ACD7000576BF /* DABannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DABannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E234CDB22E5ACD7000576BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E234CDC22E5ACD7000576BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +34,13 @@
 		6E234CE722E5ACDB000576BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E234CE922E5ACDB000576BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E234CEA22E5ACDB000576BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E234CF722E5AE93000576BF /* DABannerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DABannerCollectionViewCell.h; sourceTree = "<group>"; };
+		6E234CF822E5AE93000576BF /* DABannerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DABannerCollectionViewCell.m; sourceTree = "<group>"; };
+		6E234CF922E5AE93000576BF /* DABannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DABannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		6E234CFC22E5AFCF000576BF /* DABannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DABannerView.h; sourceTree = "<group>"; };
+		6E234CFD22E5AFCF000576BF /* DABannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DABannerView.m; sourceTree = "<group>"; };
+		6E234CFF22E5B1A7000576BF /* DABannerFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DABannerFlowLayout.h; sourceTree = "<group>"; };
+		6E234D0022E5B1A7000576BF /* DABannerFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DABannerFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63757899ED4DF54ED24A1331 /* libPods-DABannerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AA9E817126E330712ED53A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66B38DC435E4794BCAF94D5A /* Pods-DABannerView.debug.xcconfig */,
+				2A1E9F8EFFA324EE3F58057A /* Pods-DABannerView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C2002CA917B0AB7C3494723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				338ED028E0C2B4B2E0D07018 /* libPods-DABannerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E234CCF22E5ACD7000576BF = {
 			isa = PBXGroup;
 			children = (
 				6E234CDA22E5ACD7000576BF /* DABannerView */,
 				6E234CD922E5ACD7000576BF /* Products */,
+				5AA9E817126E330712ED53A8 /* Pods */,
+				5C2002CA917B0AB7C3494723 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +97,13 @@
 				6E234CDC22E5ACD7000576BF /* AppDelegate.m */,
 				6E234CDE22E5ACD7000576BF /* ViewController.h */,
 				6E234CDF22E5ACD7000576BF /* ViewController.m */,
+				6E234CFC22E5AFCF000576BF /* DABannerView.h */,
+				6E234CFD22E5AFCF000576BF /* DABannerView.m */,
+				6E234CFF22E5B1A7000576BF /* DABannerFlowLayout.h */,
+				6E234D0022E5B1A7000576BF /* DABannerFlowLayout.m */,
+				6E234CF722E5AE93000576BF /* DABannerCollectionViewCell.h */,
+				6E234CF822E5AE93000576BF /* DABannerCollectionViewCell.m */,
+				6E234CF922E5AE93000576BF /* DABannerCollectionViewCell.xib */,
 				6E234CE122E5ACD7000576BF /* Main.storyboard */,
 				6E234CE422E5ACDB000576BF /* Assets.xcassets */,
 				6E234CE622E5ACDB000576BF /* LaunchScreen.storyboard */,
@@ -78,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E234CEE22E5ACDB000576BF /* Build configuration list for PBXNativeTarget "DABannerView" */;
 			buildPhases = (
+				04EA44AAD51CEB821DF943A4 /* [CP] Check Pods Manifest.lock */,
 				6E234CD422E5ACD7000576BF /* Sources */,
 				6E234CD522E5ACD7000576BF /* Frameworks */,
 				6E234CD622E5ACD7000576BF /* Resources */,
@@ -129,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E234CE822E5ACDB000576BF /* LaunchScreen.storyboard in Resources */,
+				6E234CFB22E5AE93000576BF /* DABannerCollectionViewCell.xib in Resources */,
 				6E234CE522E5ACDB000576BF /* Assets.xcassets in Resources */,
 				6E234CE322E5ACD7000576BF /* Main.storyboard in Resources */,
 			);
@@ -136,13 +180,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04EA44AAD51CEB821DF943A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DABannerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E234CD422E5ACD7000576BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E234CFA22E5AE93000576BF /* DABannerCollectionViewCell.m in Sources */,
+				6E234CFE22E5AFCF000576BF /* DABannerView.m in Sources */,
 				6E234CE022E5ACD7000576BF /* ViewController.m in Sources */,
 				6E234CEB22E5ACDB000576BF /* main.m in Sources */,
+				6E234D0122E5B1A7000576BF /* DABannerFlowLayout.m in Sources */,
 				6E234CDD22E5ACD7000576BF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,10 +355,13 @@
 		};
 		6E234CEF22E5ACDB000576BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B38DC435E4794BCAF94D5A /* Pods-DABannerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 883RSPQJ96;
 				INFOPLIST_FILE = DABannerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +374,13 @@
 		};
 		6E234CF022E5ACDB000576BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1E9F8EFFA324EE3F58057A /* Pods-DABannerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 883RSPQJ96;
 				INFOPLIST_FILE = DABannerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
